@@ -69,7 +69,7 @@ const Nav = ({ openNav }: NavProps) => {
           <ThemeToggler />
           <HiBars3BottomRight
             onClick={openNav}
-            className="w-8 h-8 cursor-pointer text-black lg:hidden"
+            className="w-8 h-8 cursor-pointer text-black lg:hidden dark:text-cyan-700"
           />
         </div>
       </div>

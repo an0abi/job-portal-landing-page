@@ -31,14 +31,14 @@ const Nav = ({ openNav }: NavProps) => {
   return (
     <div
       className={`transition-all ${
-        navBg ? "bg-white shadow-md dark:bg-gray-900" : "fixed"
+        navBg ? "bg-white shadow-md dark:bg-cyan-950" : "fixed"
       } duration-200 h-[12vh] z-[10000] fixed w-full`}
     >
       <div className="flex items-center h-full justify-between w-[92%] mx-auto">
         <div className="flex items-center sm:space-x-20">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-cyan-800 dark:bg-white rounded-full flex items-center justify-center flex-col">
-              <LuNetwork className="w-5 h-5 text-white dark:text-cyan-800" />
+            <div className="w-10 h-10 bg-cyan-800 dark:bg-white rounded-full flex items-center justify-center flex-col transition-all duration-200">
+              <LuNetwork className="w-5 h-5 text-white dark:text-cyan-800 " />
             </div>
             <h1 className="text-cl hidden sm:block md:text-2xl text-cyan-800 dark:text-white font-bold">
               DevHire
@@ -60,7 +60,7 @@ const Nav = ({ openNav }: NavProps) => {
           </div>
         </div>
         <div className="flex items-center space-x-4">
-          <button className="px-8 py-2.5 text-xs sm:text-sm rounded-lg cursor-pointer bg-gray-200 hover:bg-gray-300 transition-all duration-300 dark:text-black">
+          <button className="px-8 py-2.5 text-xs sm:text-sm rounded-lg cursor-pointer bg-gray-200 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-500 transition-all duration-300">
             Login/Register
           </button>
           <button className="px-8 py-2.5 text-sm hidden sm:block rounded-lg cursor-pointer bg-cyan-700 hover:bg-cyan-600 transition-all duration-300 text-white">

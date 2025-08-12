@@ -31,7 +31,7 @@ const Nav = ({ openNav }: NavProps) => {
   return (
     <div
       className={`transition-all ${
-        navBg ? "bg-white shadow-md dark:bg-cyan-950" : "fixed"
+        navBg ? "bg-white shadow-md dark:bg-gray-800" : "fixed"
       } duration-200 h-[12vh] z-[10000] fixed w-full`}
     >
       <div className="flex items-center h-full justify-between w-[92%] mx-auto">

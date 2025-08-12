@@ -1,3 +1,3 @@
 Project in progress...
 
-Live demo: jobportallandingpage.netlify.app
+Live demo: https://jobportallandingpage.netlify.app/

@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
         <div className="mx-auto hidden xl:block">
           <Image
-            src="/images/hero-1.png"
+            src="/images/hero2.svg"
             alt="Hero Image"
             width={1000}
             height={1000}
